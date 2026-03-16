@@ -1,8 +1,8 @@
 "use client";
 // import { Button } from "@/components/ui/button";
-import { MdAddTask } from "react-icons/md";
-import { FaCubes } from "react-icons/fa6";
-import { MdNotificationAdd } from "react-icons/md";
+// import { MdAddTask } from "react-icons/md";
+// import { FaCubes } from "react-icons/fa6";
+// import { MdNotificationAdd } from "react-icons/md";
 import Link from "next/link";
 import TodoApp from "./todoapp/page";
 import Test from "./test/page";
@@ -11,19 +11,19 @@ export default function Home() {
   const services = [
     {
       title: "Save Tasks",
-      icon: <MdAddTask />,
+      // icon: <MdAddTask />,
       description:
         " Lorem ipsum dolor sit iciendigendi. Necessitatibus, sed iste a eos .",
     },
     {
       title: "View Tasks",
-      icon: <FaCubes />,
+      // icon: <FaCubes />,
       description:
         " Lorem ipsum dolor sit iciendigendi. Necessitatibus, sed iste a eos .",
     },
     {
       title: "Get notified",
-      icon: <MdNotificationAdd />,
+      // icon: <MdNotificationAdd />,
       description:
         " Lorem ipsum dolor sit iciendigendi. Necessitatibus, sed iste a eos .",
     },
@@ -56,7 +56,7 @@ export default function Home() {
                   className="flex justify-center gap-3 text-xl font-bold items-center"
                 >
                   <h2 className="">{service.title}</h2>
-                  {<span>{service.icon}</span>}
+                  {/* {<span>{service.icon}</span>} */}
                 </div>
                 {<p className="text-wrap text-center">{service.description}</p>}
               </div>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { SiHappycow } from "react-icons/si";
+// import { SiHappycow } from "react-icons/si";
 export default function NavBar() {
   const navItems = [
     { id: 2, offer: "Service", path: "#Service" },
@@ -13,7 +13,7 @@ export default function NavBar() {
         href={"/"}
         className=" flex items-center gap-1 font-bold text-amber-500"
       >
-        <SiHappycow size={24} color="black" />
+        {/* <SiHappycow size={24} color="black" /> */}
         TaskApp
       </Link>
       <div className="font-bold flex gap-5">
